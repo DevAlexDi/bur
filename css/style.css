@@ -17,8 +17,33 @@ body {
     align-items: flex-start;
     justify-content: space-between; }
     .sec-lvl-1 .for-flex .left {
-      width: 710px;
+      width: 740px;
       padding-top: 30px; }
+      .sec-lvl-1 .for-flex .left .navigation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 180px; }
+      .sec-lvl-1 .for-flex .left .descr-site {
+        position: relative; }
+      .sec-lvl-1 .for-flex .left .logo {
+        flex-shrink: 0;
+        margin-right: 70px; }
+      .sec-lvl-1 .for-flex .left .top-menu .menu-list {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        .sec-lvl-1 .for-flex .left .top-menu .menu-list .first-itm {
+          padding: 0 20px; }
+          .sec-lvl-1 .for-flex .left .top-menu .menu-list .first-itm a, .sec-lvl-1 .for-flex .left .top-menu .menu-list .first-itm span {
+            color: #fff;
+            font-weight: 700;
+            display: block;
+            font-size: 14px;
+            transition: 0.3s; }
+            .sec-lvl-1 .for-flex .left .top-menu .menu-list .first-itm a:hover, .sec-lvl-1 .for-flex .left .top-menu .menu-list .first-itm span:hover {
+              color: #ffd800; }
     .sec-lvl-1 .for-flex .right {
       padding-top: 30px;
       display: flex;

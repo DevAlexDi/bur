@@ -18,8 +18,52 @@ body{
         align-items: flex-start;
         justify-content: space-between;
         .left{
-            width: 710px;
+                width: 740px;
             padding-top: 30px;
+            .navigation{
+                display: flex;
+                align-items: center;
+                margin-bottom: 180px;
+            }
+            .descr-site{
+                position: relative;
+                .h{
+                    
+                    span{
+                        
+                    }
+                }
+                .s{
+                    
+                }
+            }
+            .logo{
+                flex-shrink: 0;
+                margin-right: 70px;
+            }
+            .top-menu{
+                .menu-list{
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    .first-itm{
+                        padding: 0 20px;
+                        a,span{
+                            color: #fff;
+                            font-weight: 700;
+                            display: block;
+                            font-size: 14px;
+                            transition: 0.3s;
+                            
+                            &:hover{
+                                color: #ffd800;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .right{
             padding-top: 30px;
