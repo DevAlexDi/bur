@@ -7,4 +7,87 @@ body {
   padding: 0 50px;
   margin: 0 auto; }
 
+.sec-lvl-1 {
+  background-image: url(../img/main-bg.jpg);
+  height: 590px;
+  background-size: cover;
+  background-position: center; }
+  .sec-lvl-1 .for-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .sec-lvl-1 .for-flex .left {
+      width: 710px;
+      padding-top: 30px; }
+    .sec-lvl-1 .for-flex .right {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      .sec-lvl-1 .for-flex .right .tel-wr {
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        width: 220px;
+        margin-bottom: 110px; }
+        .sec-lvl-1 .for-flex .right .tel-wr .f {
+          display: block;
+          font-weight: 700;
+          margin-left: auto;
+          cursor: pointer; }
+        .sec-lvl-1 .for-flex .right .tel-wr a {
+          display: block;
+          padding-left: 44px;
+          background-repeat: no-repeat;
+          background-image: url(../img/telephone.png);
+          color: #000;
+          font-size: 20px; }
+        .sec-lvl-1 .for-flex .right .tel-wr .t {
+          font-size: 14px;
+          padding-left: 44px; }
+
+.main-form form {
+  width: 320px; }
+  .main-form form .head-form {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 13px; }
+  .main-form form input {
+    outline: none;
+    color: #000;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px 10px 50px;
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    margin-bottom: 23px; }
+    .main-form form input.name {
+      background-image: url(../img/inp-1.png); }
+    .main-form form input.tel {
+      background-image: url(../img/inp-2.png); }
+  .main-form form button {
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    background: #000000;
+    transition: 0.3s;
+    padding: 17px 0;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.29); }
+  .main-form form .bott-form {
+    position: relative;
+    width: calc(100% + 70px);
+    left: -35px;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
