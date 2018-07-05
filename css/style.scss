@@ -23,8 +23,73 @@ body{
         align-items: flex-start;
         justify-content: space-between;
         .left{
-            width: 710px;
+                width: 740px;
             padding-top: 30px;
+            .navigation{
+                display: flex;
+                align-items: center;
+                margin-bottom: 180px;
+            }
+            .descr-site{
+                position: relative;
+                .h{
+                    font-size: 48px;
+                    color: #fff;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    padding-left: 20px;
+                    margin: 0;
+                    span{
+                        display: block;
+                        color: #ffe701;
+                        font-size: 18px;
+                        line-height: 1;
+                    }
+
+                    &:before {
+                        content: '';
+                        width: 4px;
+                        position: absolute;
+                        left: 0;
+                        top: 8px;
+                        bottom: 3px;
+                        background: #ffe701;
+                    }
+                }
+                .s{
+                   margin-left: 20px;
+                   font-size: 18px;
+                   color: #fff;
+                }
+            }
+            .logo{
+                flex-shrink: 0;
+                margin-right: 70px;
+            }
+            .top-menu{
+                .menu-list{
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    .first-itm{
+                        padding: 0 20px;
+                        a,span{
+                            color: #fff;
+                            font-weight: 700;
+                            display: block;
+                            font-size: 14px;
+                            transition: 0.3s;
+                            
+                            &:hover{
+                                color: #ffd800;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .right{
             padding-top: 30px;
@@ -461,12 +526,37 @@ body{
         float: left;
         width: 48%;
         text-align: right;
-        padding-left: 20px;
+        padding-left: 40px;
+        position: relative;
 
         img {
             width: 100%;
             max-width: 490px;
             margin-top: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .line {
+            width: 100%;
+            max-width: 480px;
+            height: 134px;
+            background: #FFE701;
+            transform: skewX(-30deg);
+            position: absolute;
+            top: 50%;
+            right: 0;
+            margin-top: -55px;
+
+            &:after {
+                content: '';
+                background: #FFE701;
+                width: 9999px;
+                height: 100%;
+                position: absolute;
+                left: 50%;
+                top: 0;
+            }
         }
     }
 
