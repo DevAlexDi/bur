@@ -4,6 +4,11 @@ body{
     overflow-x: hidden;
 }
 
+.all-content {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .full-width {
     width: 100%;
 }
@@ -45,6 +50,8 @@ body{
                         color: #ffe701;
                         font-size: 18px;
                         line-height: 1;
+                        font-weight: 400;
+                        margin-top: 6px;
                     }
 
                     &:before {
@@ -59,6 +66,7 @@ body{
                 }
                 .s{
                    margin-left: 20px;
+                   margin-top: 2px;
                    font-size: 18px;
                    color: #fff;
                 }

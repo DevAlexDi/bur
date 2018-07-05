@@ -3,6 +3,10 @@ body {
   font-weight: 400;
   overflow-x: hidden; }
 
+.all-content {
+  width: 100%;
+  overflow-x: hidden; }
+
 .full-width {
   width: 100%; }
 
@@ -41,7 +45,9 @@ body {
             display: block;
             color: #ffe701;
             font-size: 18px;
-            line-height: 1; }
+            line-height: 1;
+            font-weight: 400;
+            margin-top: 6px; }
           .sec-lvl-1 .for-flex .left .descr-site .h:before {
             content: '';
             width: 4px;
@@ -52,6 +58,7 @@ body {
             background: #ffe701; }
         .sec-lvl-1 .for-flex .left .descr-site .s {
           margin-left: 20px;
+          margin-top: 2px;
           font-size: 18px;
           color: #fff; }
       .sec-lvl-1 .for-flex .left .logo {
